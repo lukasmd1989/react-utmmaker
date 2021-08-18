@@ -1,22 +1,23 @@
 import React from "react";
-import "./style.css";
 
-export default function App() {
-  const [source, setsource] = useState()
-}
+import { Firestore } from "../src/components/Firestore";
+import { Footer } from "../src/components/Firestore";
 
-useEffect(() => {
-  if (sourceId) {
-    FirestoreService.source(sourceId)
-      .then(source => {
-        if (source.exists) {
-          setError(null);
-          setGroceryList(groceryList.data());
-        } else {
-          setError('grocery-list-not-found');
-          setGroceryListId();
-        }
-      })
-      .catch(() => setError('grocery-list-get-fail'));
-  }s
-}, [sourceId, setsourceId]);
+const IndexPage = () => {
+  return (
+    <React.Fragment>
+      <Helmet>
+          <meta charSet="utf-8" />
+          <title>UTM Builder for Google Analytics</title>
+          <meta content="Free URL builder to create UTM codes for all your Google Analytics campaign URLs" name="description"></meta>
+          <link
+          href="https://fonts.googleapis.com/css?family=Lato"
+          rel="stylesheet"
+        />
+        </Helmet>
+      <Footer />
+    </React.Fragment>
+  );
+};
+
+export default IndexPage;
