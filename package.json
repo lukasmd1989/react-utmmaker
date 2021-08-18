@@ -9,7 +9,6 @@
     "bootstrap": "5.1.0",
     "event": "^1.0.0",
     "firebase": "8.9.1",
-    "http": "^0.0.0",
     "http2": "^3.3.7",
     "lodash.get": "4.4.2",
     "qrcode": "1.4.4",
