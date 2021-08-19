@@ -3,18 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@firebase/app": "^0.6.29",
-    "@firebase/app-types": "0.x",
-    "@firebase/firestore": "^2.3.10",
+    "@firebase/app": "0.6.29",
     "@popperjs/core": "2.9.3",
-    "@react-native-firebase/app": "12.6.1",
     "bootstrap": "5.1.0",
-    "event": "^1.0.0",
     "firebase": "8.9.1",
-    "http": "^0.0.0",
-    "http2": "^3.3.7",
-    "lodash.get": "4.4.2",
-    "minizlib": "^2.1.2",
     "qrcode": "1.4.4",
     "react": "17.0.2",
     "react-copy-to-clipboard": "5.0.4",
@@ -22,9 +14,8 @@
     "react-helmet": "6.1.0",
     "react-icons": "4.2.0",
     "react-native": "0.65.0",
-    "tls": "^0.0.1",
-    "url": "^0.11.0",
-    "webfontloader": "1.6.28"
+    "webfontloader": "1.6.28",
+    "reactfire": "3.0.0-rc.3"
   },
   "scripts": {
     "start": "react-scripts start",
