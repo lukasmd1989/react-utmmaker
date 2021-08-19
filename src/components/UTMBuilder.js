@@ -170,7 +170,7 @@ export const UTMBuilder = () => {
               </div>
               <div className="col-4">
                 <span id="passwordHelpInline" className="form-text">
-                  (blackfriday_promo, newyear)
+                  (Use Campaign Name Generetor)
                 </span>
               </div>
             </div>
