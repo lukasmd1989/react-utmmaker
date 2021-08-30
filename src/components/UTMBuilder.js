@@ -199,7 +199,7 @@ export const UTMBuilder = () => {
                 </label>
               </div>
               <div className="col-5">
-                <input list="content1" id="term" className="form-control" aria-describedby="passwordHelpInline" onChange={handleChange} />
+                <input list="content1" id="content" className="form-control" aria-describedby="passwordHelpInline" onChange={handleChange} />
                 <datalist id="content1">
                   <option value="1"/>
                   <option value="2"/>
