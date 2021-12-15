@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import { FaSave } from "react-icons/fa";
+//import { FaSave } from "react-icons/fa";
 
 export const UTMBuilder = () => {
   const [utmlink, setUtmlink] = useState("");
@@ -237,17 +237,6 @@ export const UTMBuilder = () => {
              
             <textarea className="form-control" defaultValue={utmlink} />
 
-            {!copied ? (
-              <CopyToClipboard text={utmlink} onCopy={() => setCopied(true)}>
-                <button type="button" className="btn btn-secondary mt-3">
-                  <FaSave /> Copy URL
-                </button>
-              </CopyToClipboard>
-            ) : (
-              <button type="button" className="btn btn-secondary mt-3">
-                Copied!
-              </button>
-            )}
           </div>
            <div className="row mb-3 align-items-center mt-4 text-center">
             <img id="qr-code" src={qr} width="300" height="300" />
